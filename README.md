@@ -76,3 +76,13 @@ argument-array subprocesses, input limits, silence handling, and JSON output.
 Git dependencies are pinned by commit in `uv.lock`. Dependencies and downloaded
 models retain their own licenses; the chosen ctc-forced-aligner declares
 CC-BY-NC-4.0.
+
+## Original resources
+
+- [whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization) — original pipeline; adaptation and commit details are documented above.
+- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) — Whisper transcription implementation.
+- [NVIDIA NeMo Speech](https://github.com/NVIDIA-NeMo/Speech) — speaker diarization models and toolkit.
+- [ctc-forced-aligner](https://github.com/MahmoudAshraf97/ctc-forced-aligner) — word alignment.
+- [deepmultilingualpunctuation](https://github.com/oliverguhr/deepmultilingualpunctuation) — punctuation restoration.
+- [Demucs fork](https://github.com/MahmoudAshraf97/demucs) — optional source separation dependency.
+- [indic-numtowords](https://github.com/AI4Bharat/indic-numtowords) — number normalization dependency.
